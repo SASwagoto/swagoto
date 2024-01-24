@@ -18,4 +18,14 @@
         </div>
     </div>
 </section>
+<section class="relative bg-slate-800 w-screen">
+    <div class="flex w-full px-6 py-20 md:px-8">
+        <div class="text-start w-full md:w-1/2 lg:1/2">
+            <h3 class="text-gray-300 text-mono text-lg">Hello, I'm Md Shahnewas Shawon</h3>
+            <h1 class="uppercase text-4xl text-cyan-500 text-bold">Swagoto</h1>
+        </div>
+        <div class="flex w-1/2 items-end">
+        </div>
+    </div>
+</section>
 @endsection
