@@ -20,5 +20,7 @@
         @yield('dashboard')
 
         @include('layouts.footer')
+
+        <script src="{{asset('frontend/js/darkmode.js')}}"></script>
     </body>
 </html>

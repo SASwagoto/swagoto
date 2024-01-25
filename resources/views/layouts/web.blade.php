@@ -8,8 +8,10 @@
         <title>Swagoto</title>
 
         <link href="{{ asset('frontend') }}/css/all.min.css" rel="stylesheet">
+        
         @stack('css')
         @vite('resources/css/app.css', 'resources/js/app.js')
+        
     </head>
 
     <body class="antialiased">
@@ -20,6 +22,8 @@
         <!-- Messenger Chat Plugin Code -->
         @include('layouts.footer')
 
+        
         @stack('js')
+        <script src="{{asset('frontend/js/darkmode.js')}}"></script>
     </body>
 </html>
