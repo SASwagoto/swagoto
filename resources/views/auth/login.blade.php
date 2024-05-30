@@ -1,4 +1,7 @@
 <x-guest-layout>
+    <div class="w-full flex justify-end">
+        @include('layouts.partials.darkswitch')
+    </div>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 

@@ -14,12 +14,12 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased">
-        @include('layouts.header')
+        @include('layouts.partials.header')
         
         @include('layouts.navigation')
         @yield('dashboard')
 
-        @include('layouts.footer')
+        @include('layouts.partials.footer')
 
         <script src="{{asset('frontend/js/darkmode.js')}}"></script>
     </body>

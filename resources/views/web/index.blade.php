@@ -12,20 +12,25 @@
     <div
         class="top-0 m-auto flex h-full w-full justify-center bg-black bg-opacity-90 align-middle duration-500 group-hover:bg-opacity-0">
         <div class="m-auto mt-[50px] w-2/3 md:mt-[85px]">
-            <h2
+            <h2 data-aos="fade-up"
                 class="text-center font-mono text-[28px] font-bold text-white blur-0 duration-500 group-hover:opacity-80 group-hover:blur-2xl md:text-[50px] lg:text-[80px]">
                 Welcome to the World of Web Wonders!</h2>
         </div>
     </div>
 </section>
-<section class="bg-indigo-300 dark:bg-[#222f50] w-full py-4 relative">
-    <div class="align-middle image_box  top-[-50%]">
-        <div class="rounded-full border-[1px] border-[#222f50] dark:border-white w-80 h-80 flex m-auto">
-            <div class="relative rounded-full border-4 border-[#222f50] dark:border-white w-[300px] h-[300px] m-auto p-4 overflow-hidden">
-                <img class="blur-0 hover:blur-2xl duration-500" src="{{asset('frontend/images/swagotovector.png')}}" alt="">
-                <h1 class="text-xl absolute top-auto left-auto">Swagoto</h1>
+<section class="w-full relative bg-[#222f50] px-4">
+    <div class="w-full h-80 relative bg-white">
+        <div class="flex justify-between items-center gap-4 group bg-[#222f50] p-2 h-40 w-1/2 rounded-r-full">
+            <div>
+                <h2 class="text-white text-4xl font-brand font-bold">Shawon Ahmed Swagoto</h2>
+                <h3 class="text-white text-2xl font-brand font-bold">Software Engineer</h3>
+            </div>
+
+            <div class="h-36 w-36 border border-white rounded-full duration-500 overflow-hidden">
+                <img src="{{asset('frontend/images/swagotovector.png')}}" alt="">
             </div>
         </div>
+        <div class="bg-white h-40 w-1/2 rounded-l-full"></div>
     </div>
 </section>
 @endsection

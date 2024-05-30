@@ -15,15 +15,16 @@
     </head>
 
     <body class="antialiased">
-        @include('layouts.header')
+        @include('layouts.partials.header')
 
         @yield('content')
    
         <!-- Messenger Chat Plugin Code -->
-        @include('layouts.footer')
+        @include('layouts.partials.footer')
 
         
         @stack('js')
         <script src="{{asset('frontend/js/darkmode.js')}}"></script>
+        <script src="{{asset('frontend/js/main.js')}}"></script>
     </body>
 </html>
