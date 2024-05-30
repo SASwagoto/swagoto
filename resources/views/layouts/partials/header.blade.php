@@ -15,6 +15,6 @@
         {{-- <img class="ml-[-7px] h-8 md:h-10" src="{{ asset('frontend') }}/images/greater.png" alt=""> --}}
     </a>
     <div class="md:w-2/3 lg:w-5/6 justify-end pt-2 gap-10 items-start hidden md:flex lg:flex xl:flex">
-        @include('layouts.partials.menu')
+        @include('layouts.menu')
     </div>
 </header>
