@@ -13,6 +13,9 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                bebas: ['Bebas Neue'],
+                titillium: ['Titillium Web'],
+                ubuntu: ['Ubuntu']
             },
         },
     },

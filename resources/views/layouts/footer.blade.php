@@ -1,4 +1,4 @@
-<footer class="fixed bottom-0 z-10 w-screen  bg-indigo-300 dark:bg-[#222f50] px-4 py-2 md:py-4 md:hidden lg:hidden xl:hidden">
+<footer class="fixed bottom-0 z-10 w-screen bg-[#222f50] px-4 py-2 md:py-4 md:hidden lg:hidden xl:hidden">
     <div class="flex justify-between">
         @include('layouts.menu')
     </div>
