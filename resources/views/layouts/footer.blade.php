@@ -4,7 +4,7 @@
     </div>
 </footer>
 
-<div id="fb-root"></div>
+{{-- <div id="fb-root"></div>
 
 <!-- Your Chat Plugin code -->
 <div id="fb-customer-chat" class="fb-customerchat">
@@ -33,4 +33,4 @@
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-</script>
+</script> --}}

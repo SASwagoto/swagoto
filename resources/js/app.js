@@ -7,4 +7,3 @@ window.Alpine = Alpine;
 Alpine.start();
 
 import { gsap } from 'gsap';
-
