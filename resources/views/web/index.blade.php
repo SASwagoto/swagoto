@@ -28,7 +28,7 @@
 </section>
 
 <section class="relative bg-gradient-to-t to-[#0C3C54] from-[#000000] pt-20 pb-10">
-    <div class="text-center mt-20 md:mt-40">
+    <div class="text-center mt-20 md:mt-28">
         <h5 class="text-white text-2xl md:text-4xl font-ubuntu" data-aos="fade-left">Hello! I'm </h5>
         <h2 class="text-4xl md:text-8xl font-bebas text-[#FFD700]" data-aos="fade-right">MD SHAHANEWAS SHAWON</h2>
         <p class="w-4/5 md:w-2/4 m-auto text-md md:text-xl font-extralight italic text-white text-center" data-aos="fade-up">A passionate Full Stack Developer with {{Carbon\Carbon::now()->diffInYears("2019-01-01");}} years of experience in designing and building web applications. I specialize in creating seamless, user-friendly experiences from concept to deployment. Welcome to my portfolio, where you can learn more about my work, skills, and what drives me as a developer.</p>
@@ -42,12 +42,35 @@
 
 <section class="relative bg-black">
     <div class="w-full overflow-hidden text-center relative">
+        <h2 class="text-white text-6xl text-nowrap md:text-[200px] lg:text-[250px] opacity-5 leading-none font-titillium font-bold" data-aos="zoom-out">S K I L L S</h2>
+    </div>
+    <h4 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-md md:text-4xl font-extralight italic text-nowrap" data-aos="fade-in">My Digital Playground of Web Creations</h4>
+</section>
+
+<section class="relative bg-gradient-to-t to-[#000000] from-[#0C3C54] pt-20 pb-10">
+    <div class="w-10/12 m-auto grid grid-cols-1 lg:grid-cols-4 gap-5">
+        <div class="flip-box rounded-md overflow-hidden">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="https://images.unsplash.com/photo-1586797877865-e261061fdfbf" alt="Paris" style="width:300px;height:200px">
+              </div>
+              <div class="flip-box-back flex flex-col items-center justify-center">
+                <h2>Together</h2>
+                <p>We can do it!</p>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+<section class="relative bg-[#0C3C54]">
+    <div class="w-full overflow-hidden text-center relative">
         <h2 class="text-white text-6xl text-nowrap md:text-[200px] lg:text-[250px] opacity-5 leading-none font-titillium font-bold" data-aos="zoom-out">P R O J E C T S</h2>
     </div>
     <h4 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-md md:text-4xl font-extralight italic text-nowrap" data-aos="fade-in">My Digital Playground of Web Creations</h4>
 </section>
 
-<section class="bg-gradient-to-t to-[#000000] from-[#0C3C54] pt-20 pb-10">
+<section class="bg-gradient-to-t from-[#000000] to-[#0C3C54] pt-20 pb-10">
     <div class="w-10/12 m-auto grid grid-cols-1 lg:grid-cols-4 gap-5">
         <div class="flip-box rounded-md overflow-hidden">
             <div class="flip-box-inner">
