@@ -15,7 +15,7 @@
 
     </head>
 
-    <body class="antialiased">
+    <body class="antialiased w-screen h-screen overflow-x-hidden overflow-y-auto">
         @include('layouts.header')
 
         @yield('content')

@@ -1,6 +1,6 @@
-<header class="sticky top-0 z-50 bg-[#0C3C54]">
+<header class="w-screen fixed top-0 z-50 bg-[#0C3C54]">
     <div class="w-5/6 m-auto py-2 md:py-3 lg:py-3 sm:px-6 flex duration-500">
-        <a href="{{url('/')}}" data-aos="fade-right" class="group flex w-full justify-center md:w-1/3 md:justify-start lg:w-1/6">
+        <a href="{{url('/')}}" data-aos="fade-down" class="group flex w-full justify-center md:w-1/3 md:justify-start lg:w-1/6">
             <svg class="ml-[-7px] h-8 md:h-10" viewBox="0 0 49 100">
                 <path class="fill-white duration-500" d="M 14.091 24.447 C 6.341 37.893, -0 49.383, -0 49.980 C -0 50.578, 6.345 62.077, 14.100 75.533 L 28.200 100 38.600 100 C 44.320 100, 49 99.707, 49 99.348 C 49 98.989, 42.670 87.739, 34.932 74.348 L 20.865 50 34.932 25.652 C 42.670 12.261, 49 1.011, 49 0.652 C 49 0.293, 44.316 -0, 38.591 -0 L 28.182 -0 14.091 24.447"/>
             </svg>
@@ -15,7 +15,7 @@
             </svg>
             {{-- <img class="ml-[-7px] h-8 md:h-10" src="{{ asset('frontend') }}/images/greater.png" alt=""> --}}
         </a>
-        <div class="md:w-2/3 lg:w-5/6 justify-end pt-2 gap-10 items-start hidden md:flex lg:flex xl:flex" data-aos="fade-left">
+        <div class="md:w-2/3 lg:w-5/6 justify-end pt-2 gap-10 items-start hidden md:flex lg:flex xl:flex" data-aos="fade-down">
             @include('layouts.menu')
         </div>
     </div>
