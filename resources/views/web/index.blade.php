@@ -82,7 +82,7 @@
         </div>
 
         <div class="w-full flex flex-col justify-center items-center">
-            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#FBD724" data-target-progress="80">
+            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#FBD724" data-target-progress="70">
                 <span class="text-[#FBD724] font-bold uppercase mb-2 z-30">JavaScript</span>
                 <img class="w-10 z-30" src="{{ asset('frontend/images/skills/js.webp') }}" alt="">
             </div>
@@ -90,7 +90,7 @@
         </div>
 
         <div class="w-full flex flex-col justify-center items-center">
-            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#787CB5" data-target-progress="80">
+            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#787CB5" data-target-progress="70">
                 <span class="text-[#787CB5] font-bold uppercase mb-2 z-30">php</span>
                 <img class="w-10 z-30" src="{{ asset('frontend/images/skills/php.png') }}" alt="">
             </div>
@@ -98,7 +98,7 @@
         </div>
 
         <div class="w-full flex flex-col justify-center items-center">
-            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#21759D" data-target-progress="85">
+            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#21759D;" data-target-progress="75">
                 <span class="text-[#21759D] font-bold uppercase mb-2 z-30">wordpress</span>
                 <img class="w-10 z-30" src="{{ asset('frontend/images/skills/wp.png') }}" alt="">
             </div>
@@ -111,6 +111,22 @@
                 <img class="w-10 z-30" src="{{ asset('frontend/images/skills/laravel.png') }}" alt="">
             </div>
             <h4 class="text-white font-extralight italic text-3xl mt-4">0%</h4>
+        </div>
+
+        <div class="w-full flex flex-col justify-center items-center">
+            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#E48C00" data-target-progress="75">
+                <span class="text-[#E48C00] font-bold uppercase mb-2 z-30">MySql</span>
+                <img class="w-10 z-30" src="{{ asset('frontend/images/skills/Mysql_logo.png') }}" alt="">
+            </div>
+            <h4 class="text-white font-extralight italic text-3xl mt-4">70%</h4>
+        </div>
+        
+        <div class="w-full flex flex-col justify-center items-center">
+            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#4EA840" data-target-progress="50">
+                <span class="text-[#4EA840] font-bold uppercase mb-2 z-30">Mongo DB</span>
+                <img class="w-10 z-30" src="{{ asset('frontend/images/skills/mongo.png') }}" alt="">
+            </div>
+            <h4 class="text-white font-extralight italic text-3xl mt-4">70%</h4>
         </div>
 
         <div class="w-full flex flex-col justify-center items-center">
@@ -137,27 +153,13 @@
             <h4 class="text-white font-extralight italic text-3xl mt-4">90%</h4>
         </div>
 
-        <div class="w-full flex flex-col justify-center items-center">
-            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#539E44" data-target-progress="60">
-                <span class="text-[#539E44] font-bold uppercase mb-2 z-30">Laravel</span>
-                <img class="w-10 z-30" src="{{ asset('frontend/images/skills/js.png') }}" alt="">
-            </div>
-            <h4 class="text-white font-extralight italic text-3xl mt-4">70%</h4>
-        </div>
 
-        <div class="w-full flex flex-col justify-center items-center">
-            <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#E5291E" data-target-progress="70">
-                <span class="text-[#E5291E] font-bold uppercase mb-2 z-30">Laravel</span>
-                <img class="w-10 z-30" src="{{ asset('frontend/images/skills/laravel.png') }}" alt="">
-            </div>
-            <h4 class="text-white font-extralight italic text-3xl mt-4">70%</h4>
-        </div>
     </div>
 </section>
 
 <section class="relative bg-[#0C3C54]">
     <div class="w-full overflow-hidden text-center relative">
-        <h2 class="text-white text-6xl text-nowrap md:text-[200px] lg:text-[250px] opacity-5 leading-none font-titillium font-bold" data-aos="zoom-out">P R O J E C T S</h2>
+        <h2 class="text-white text-6xl text-nowrap md:text-[150px] lg:text-[230px] opacity-5 leading-none font-titillium font-bold" data-aos="zoom-out">P R O J E C T S</h2>
     </div>
     <h4 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-md md:text-4xl font-extralight italic text-nowrap" data-aos="fade-in">My Digital Playground of Web Creations</h4>
 </section>
