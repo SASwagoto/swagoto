@@ -42,7 +42,7 @@
 
 <section class="relative bg-black">
     <div class="w-full overflow-hidden text-center relative">
-        <h2 class="text-white text-6xl text-nowrap md:text-[200px] lg:text-[250px] opacity-5 leading-none font-titillium font-bold" data-aos="zoom-out">S K I L L S</h2>
+        <h2 class="text-white text-6xl text-nowrap md:text-[200px] lg:text-[250px] opacity-10 leading-none font-titillium font-bold" data-aos="zoom-out">S K I L L S</h2>
     </div>
     <h4 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-md md:text-4xl font-extralight italic text-nowrap" data-aos="fade-in">Where Technical Proficiency Meets Creativity</h4>
 </section>
@@ -120,7 +120,7 @@
             </div>
             <h4 class="text-white font-extralight italic text-3xl mt-4">70%</h4>
         </div>
-        
+
         <div class="w-full flex flex-col justify-center items-center">
             <div class="progress flex flex-col justify-center items-center" style="--progress: 0; --vcolor:#4EA840" data-target-progress="50">
                 <span class="text-[#4EA840] font-bold uppercase mb-2 z-30">Mongo DB</span>
